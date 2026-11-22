@@ -2,6 +2,7 @@ from distutils.core import setup
 
 setup(
     name="pyadscore",
+    version="0.0.1",
     python_requires=">=3.9",
     description="This is a package for working with Adscore signatures and request signing",
     keywords="adscore signature verification bot proxy",
