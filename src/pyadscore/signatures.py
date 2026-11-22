@@ -4,10 +4,10 @@ from inspect import isfunction
 import struct
 from socket import inet_pton, inet_ntop
 
-from crypts import CryptFactory
-from structs import StructFactory
-from formatters import AbstractFormatter, Base64
-from exceptions import VersionError, VerifyError, ParseError
+from .crypts import CryptFactory
+from .structs import StructFactory
+from .formatters import AbstractFormatter, Base64
+from .exceptions import VersionError, VerifyError, ParseError
 
 
 class AbstractSignature(ABC):
